@@ -5,7 +5,7 @@ type Props = {
     params: { slug: string}
 }
 
-export default async function Page({params}){
+export default async function Page({ params }: Props){
     const page = await getPage(params.slug);
 
     return (

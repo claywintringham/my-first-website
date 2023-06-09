@@ -7,4 +7,5 @@ export type Page = {
     _createdAt: Date;
     title: string;
     slug: PortableTextBlock[];
+    content: PortableTextBlock[];
 }
