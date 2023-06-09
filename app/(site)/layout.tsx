@@ -31,7 +31,7 @@ const pages = await getPages();
 
       <div className='flex items-center gap-5 text-sm text-gray-600'>
         {pages.map((page) => (
-          <Link key={pages._id} 
+          <Link key={page._id} 
           href={`/${page.slug}`}
           className='hover:underline'>
             {page.title} 
