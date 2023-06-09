@@ -1,3 +1,4 @@
+/* eslint react/no-unescaped-entities */
 import { getProjects } from "@/sanity/sanity-utils"
 import Image from "next/image";
 import  Link from 'next/link';
